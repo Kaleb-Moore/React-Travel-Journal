@@ -1,4 +1,22 @@
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    max-width: 550px;
+    background-color: #F55A5A;
+}
+
+.header--title {
+    font-size: 14px;
+    font-weight: medium;
+    color: white;
+}
