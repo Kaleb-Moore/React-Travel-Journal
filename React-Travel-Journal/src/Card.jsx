@@ -4,7 +4,7 @@ import pin from "./images/pin.svg"
 
 export default function Card(props) {
     return (
-        <div className='Card'>
+        <div className='card'>
             <img src={props.imageUrl} alt="" className="card--image" />
             <div className="card--text">
     
